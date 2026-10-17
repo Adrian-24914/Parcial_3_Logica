@@ -1,0 +1,11 @@
+name = "LeanLogicaProposicional"
+version = "0.1.0"
+defaultTargets = ["LeanLogicaProposicional"]
+
+[[lean_lib]]
+name = "Demostraciones"
+roots = ["Demostraciones"]
+
+[[lean_exe]]
+name = "LeanLogicaProposicional"
+root = "Main"
